@@ -35,15 +35,23 @@ public class Main {
         String token2 = tokenizer.nextToken();
         if (token1.equals("1") || token1.equals("2") || token1.equals("3") || token1.equals("4") || token1.equals("5") ||
                 token1.equals("6") || token1.equals("7") || token1.equals("8") || token1.equals("9") || token1.equals("10")) {
-            number1 = AcabCalc(token1);
-            number2 = AcabCalc(token2);
-            result = result(number1, number2);
-            System.out.println(result);
-        } else {
-            number1 = RimCalc(token1);
-            number2 = RimCalc(token2);
-            result = result(number1, number2);
-            System.out.println(rimNumbers[result]);
+            if (token2.equals("1") || token2.equals("2") || token2.equals("3") || token2.equals("4") || token2.equals("5") ||
+                    token2.equals("6") || token2.equals("7") || token2.equals("8") || token2.equals("9") || token2.equals("10")) {
+                number1 = AcabCalc(token1);
+                number2 = AcabCalc(token2);
+                result = result(number1, number2);
+                System.out.println(result);
+            }
+        }
+        if (token1.equals("I") || token1.equals("II") || token1.equals("III") || token1.equals("IV") || token1.equals("V") ||
+                token1.equals("VI") || token1.equals("VII") || token1.equals("VIII") || token1.equals("IX") || token1.equals("X")) {
+            if (token2.equals("I") || token2.equals("II") || token2.equals("III") || token2.equals("IV") || token2.equals("V") ||
+                    token2.equals("VI") || token2.equals("VII") || token2.equals("VIII") || token2.equals("IX") || token2.equals("X")) {
+                number1 = RimCalc(token1);
+                number2 = RimCalc(token2);
+                result = result(number1, number2);
+                System.out.println(rimNumbers[result]);
+            }
         }
     }
     static int result (int number1, int number2) {
