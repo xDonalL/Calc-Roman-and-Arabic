@@ -1,0 +1,16 @@
+
+P
+java:S11213".Extract the assignment out of this expression.(Éì“ñýÿÿÿÿ8Ã¹ŽÉ³1
+K
+java:S11216".Extract the assignment out of this expression.(à²½Í8Ã¹ŽÉ³1
+J
+java:S11219".Extract the assignment out of this expression.(‡¸ïS8Ã¹ŽÉ³1
+K
+java:S1121<".Extract the assignment out of this expression.(™ñŒ8Ã¹ŽÉ³1
+z	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(Å‚ÉÎúÿÿÿÿ8Ä¹ŽÉ³1
+0
+java:S1220""Move this file to a named package.
+L	java:S106)"+Replace this use of System.out by a logger.(®ýáëûÿÿÿÿ8ÍºŽÉ³1
+G	java:S106."+Replace this use of System.out by a logger.(èÛŽœ8ÍºŽÉ³1
+j	java:S100J"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôÝÖ—8ÍºŽÉ³1
+o	java:S100l"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ïˆˆ¬þÿÿÿÿ8ÎºŽÉ³1
